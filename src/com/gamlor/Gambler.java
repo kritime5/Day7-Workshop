@@ -10,12 +10,18 @@ public class Gambler {
          int everydayBetmoney=1;
 
     }
+    //UC3-AS A CALCULATIVE GAMBLER IF WIN OR LOSS 50% OF THE STAKE WOULD RESIGN
     private boolean winOrloss() {
+        if(Math.random()<0.5)
+            return true;
+        else
+            return false;
 
     }
 
     public void startGame(){
         numberOfplay ++;
+        int everydayBetmoney;
         if(winOrloss())
             everydayStakemoney+=everydayBetmoney;
         else
