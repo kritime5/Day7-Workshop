@@ -3,9 +3,15 @@ package com.gamlor;
 public class Gambler {
     //UC1-AS A GAMBER WOULD START WITH A STAKE OF $100 EVERY DAY AND $1 EVERY GAME
     static int everydayStakemoney=100;
-    static int everydayBetmoney=1;
+
     int numberOfplay;
+    //UC2-AS A GAMBLER MAKE $1 BET SO EITHER WIN OR LOOSE $1
+    public void betmoney(){
+         int everydayBetmoney=1;
+
+    }
     private boolean winOrloss() {
+
     }
 
     public void startGame(){
